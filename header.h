@@ -11,7 +11,7 @@ std::list<std::string> header()
 
     while (std::getline(readme, temp))
     {
-        if (temp.at(0) == '-' || temp.at(1) == '-')
+        if (temp.size() != 0 && temp.at(1) == '-')
         {
             names.push_back(temp);
         }
