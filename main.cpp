@@ -3,6 +3,6 @@
 #include "function.h"
 
 int main() {
-    PrintList(header())
+    PrintList(header());
     return 0;
 }
