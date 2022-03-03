@@ -1,7 +1,8 @@
 #include <iostream>
 #include "header.h"
+#include "function.h"
 
 int main() {
-    std::list<std::string> names = header();
+    PrintList(header())
     return 0;
 }
