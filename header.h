@@ -2,16 +2,14 @@
 #include <fstream>
 #include <list>
 
-using namespace std;
-
-list<string> header()
+std::list<std::string> header()
 {
-    string temp ("");
-    list<string> names = {};
+    std::string temp ("");
+    std::list<std::string> names = {};
 
-    ifstream readme("README.md");
+    std::ifstream readme("README.md");
 
-    while (getline(readme, temp))
+    while (std::getline(readme, temp))
     {
         if (temp.at(0) == '-' || temp.at(1) == '-')
         {
