@@ -4,6 +4,5 @@
 
 int main() {
     PrintList(header())
-    
     return 0;
 }
